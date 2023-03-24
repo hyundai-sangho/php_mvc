@@ -74,7 +74,7 @@ switch ($action) {
         break;
 
     default:
-        $course_name    = get_course_name(course_id: $course_id);
+        $course_name    = get_course_name($course_id);
         $courses        = get_courses();
         $assignments    = get_assignments_by_course($course_id);
 
